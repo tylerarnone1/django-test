@@ -1,8 +1,8 @@
 from django.conf.urls import url
-from basic_app import views
+from main_app import views
 
 # SET THE NAMESPACE!
-app_name = 'basic_app'
+app_name = 'main_app'
 
 urlpatterns=[
     url(r'^relative/$',views.relative,name='relative'),
